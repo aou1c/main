@@ -4,8 +4,6 @@ from requests.exceptions import HTTPError
 import time
 import datetime
 
-import numpy
-
 import pylab
 import matplotlib.pyplot as plt
 

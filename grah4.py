@@ -88,10 +88,6 @@ if __name__ == '__main__':
         ''' !!! Обработчик события для кнопки "Добавить"'''
         addPlot(graph_axes)
 
-    # Начальные параметры графиков
-    current_sigma = 0.2
-    current_mu = 0.0
-
     # Создадим окно с графиком
     fig, graph_axes = pylab.subplots()
     graph_axes.grid()
